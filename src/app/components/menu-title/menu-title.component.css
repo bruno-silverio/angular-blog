@@ -6,9 +6,13 @@
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 130px;
-  font-family: 'segoe UI';
+  font-family: 'Open Sans', sans-serif;;
   display: flex;
   justify-content: center;
+
+  @media(max-width:600px) {
+    font-size: 30px;
+}
 }
 
 .container__menu-title > hr{

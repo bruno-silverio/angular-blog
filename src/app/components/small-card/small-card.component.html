@@ -3,14 +3,14 @@
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?format=jpg&quality=90&v=1530129081"
+        src="{{ photoCover }}"
         alt=""
         srcset=""
       >
     </div>
 
     <div class="small-card__title">
-      <h1><a href="['content', Id]" >Titulo sub noticia</a></h1>
+      <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
     </div>
   </div>
 
