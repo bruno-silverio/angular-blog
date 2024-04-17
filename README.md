@@ -2,6 +2,9 @@
 
 This is a blog project developed with Angular, incorporating Tailwind CSS for a modern and responsive design. Inspired by Dribbble's most innovative designs.
 
+![image](https://github.com/bruno-silverio/angular-blog/assets/27282770/643a8094-567a-4199-93d6-56e820798f88)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
